@@ -1,0 +1,139 @@
+body {
+    
+}body {
+   background-color:#e8e8e8;
+   font-family:fantasy;
+}
+h1{
+    text-align:center;
+}
+#start{
+    background-color:red;
+}
+#input{
+padding:5px;
+
+    width:360px;
+    height:170px;
+    
+     box-shadow:20px 20px 60px #00000041,inset -20px-20px 60px #d1d1d1;
+    
+    background-color:#d1d1d1;
+    border-radius:20px;
+    border:3px solid #fff;
+    
+    
+}
+#sdiv{
+    
+    height:65px;
+    position:absolute ;
+    left:10px;
+    bottom:360px;
+    border-radius:20px;
+    width:170px;
+ box-shadow:5px 5px 60px #00000041,inset -5px -5px 60px #d1d1d1;
+    background-color:#d1d1d1;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    
+     border:4px solid #ffffff;
+}
+#end{
+    height:60px;
+      width:170px;
+      border-radius:20px;
+      font-size:20px;
+      background-color:white;
+}
+#start{
+        height:60px;
+      width:170px;
+      border-radius:20px;
+      font-size:25px;
+      background-color:white;
+}
+#btn{
+       height:45px;
+      width:350px;
+      margin-top:20px;
+      font-family:fantasy;
+      font-size:20px;
+      color:white;
+      background-color:grey;k;
+      border-radius:20px;
+}
+
+#div2{
+   
+     border:4px solid #ffffff;
+    height:65px;
+    position:absolute ;
+     left:10px;
+    bottom:260px;
+    border-radius:20px;
+    width:170px;
+     box-shadow:5px 5px 60px #00000041,inset -5px -5px 60px #d1d1d1;
+   
+    background-color:#d1d1d1;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+#div1{
+   
+     border:4px solid #ffffff;
+    height:65px;
+    position:absolute ;
+    left:200px;
+    bottom:360px;
+    border-radius:20px;
+    width:170px;
+      box-shadow:20px 20px 60px #00000041,inset -20px -20px 60px #d1d1d1;
+   
+    background-color:#d1d1d1;
+   
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+#div3{
+  
+    height:65px;
+    position:absolute ;
+    left:200px;
+    bottom:260px;
+    border-radius:20px;
+    width:170px;
+     box-shadow:5px 5px 60px #00000041,inset -5px -5px 60px #d1d1d1;
+     border:4px solid #ffffff;
+    background-color:#d1d1d1;
+   
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.day{
+    font-size:30px;
+    color:white;
+}
+.month{
+    font-size:30px;
+:;    color:white;
+}
+.year{
+    font-size:30px;
+    color:white;
+}
+.tdate{
+    font-size:30px;
+    color:white;
+}
+div{
+     
+}
+.g{
+    font-size:20px;;
+}
