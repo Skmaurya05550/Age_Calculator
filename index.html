@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Day caculator</title>
+    </head>
+    <body>
+        <!DOCTYPE html>
+<html>
+    <head>
+        <title>Page Title</title>
+    </head>
+    <body>
+        
+   <h1>Day calculator</h1>
+     
+        <div id="full">
+       <div id="sdiv">
+           <p><b class=day>day:-</b></p>
+       </div>
+        <div id="div1">
+           <p><b class=month>month:-</b></p>
+       </div>
+        <div id="div2">
+           <p><b class=year>year:-</b></p>
+       </div>
+         <div id="div3">
+           <p><b class=tdate>date:-</b></p>
+       </div>
+       </div>
+       <div id="input">
+       <b class="g">born date____________</b>
+           <b class="g">_______till date</b>
+       <br>
+       
+       <input type="date" id="end" >
+        <input type="date" id="start" >
+<button onclick="p()" id="btn">caclulate</button>
+        </div>
+  <script>
+      function p(){
+function day(a,b){
+    let x=new Date(a);
+    let y=new Date(b);
+    let dt=x-y;
+    let dd=dt/(1000*60*60*24);
+  let day= document.querySelector(".day");
+  day.innerText=`days:- ${dd}`;
+
+   }
+   let A=document.querySelector("#start").value;
+let B=document.querySelector("#end").value;
+
+day(A,B);
+
+
+
+
+function month(a,b){
+    let x=new Date(a);
+    let y=new Date(b);
+    let mon=x.getMonth()-y.getMonth();
+   
+    
+    
+    
+    // year
+    
+   
+    var year=x.getYear()-y.getYear();
+   
+    let year1= document.querySelector(".year");
+  year1.innerText=`years:- ${year}`;
+   
+   
+   
+   function datet(day,mon,year){
+       if (day<0){
+           mon--;
+           
+       }
+       if(mon<0){
+           year--;
+           month+=12;
+           
+           
+       }
+       return day,mon,year;
+   }
+   datet(day,mon,year)
+    let month =year*"12"+mon;
+    let month1= document.querySelector(".month");
+  month1.innerText=`month:- ${month}`;
+   }
+  
+    
+    
+    
+    month(A,B);
+    
+    
+    
+    
+   setTimeout(()=>{
+    
+   },4000)
+ 
+}
+
+
+  </script>
+    </body>
+</html>
+    </body>
+</html>
